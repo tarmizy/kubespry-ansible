@@ -24,9 +24,10 @@ plugins/mitogen
 
 # Ansible inventory
 inventory/*
+!inventory/mycluster
 !inventory/local
 !inventory/sample
-inventory/*/artifacts/
+#inventory/*/artifacts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
